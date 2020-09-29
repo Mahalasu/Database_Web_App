@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    background-image: url('http://i.imgur.com/BJP2Q1j.jpg');
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    color: rgb(80, 114, 177);
+    overflow: hidden;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66,69,86);
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.container h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66,69,86);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.container form {
+    margin: 30px;
+}
+
+.container input {
+    width: 350px;
+    height: 15px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.container button {
+    margin: 5px;
+    line-height: 2.0;
+    font-size: 25px;
+    border: none;
+    color: rgb(66,69,86);
+    background: rgba(255,255,255,1.0);
+    opacity: 0.8;
+}
+
+.container p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66,69,86);
+    font-size: 50px;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+    margin: 100px;
+}
+
+.message {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66,69,86);
+    font-size: 20px;
+    font-weight: 100;
+}
